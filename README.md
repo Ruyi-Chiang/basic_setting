@@ -8,4 +8,6 @@ This is for terminal general setting
 Generate a requirements file and then install from it in another environment.
 
 $ env1/bin/pip freeze > requirements.txt
+
+
 $ env2/bin/pip install -r requirements.txt
